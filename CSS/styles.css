@@ -2,3 +2,17 @@
 body {
     font-family: Encode Sans, sans-serif;
 }
+
+.container {
+    flex-direction: column;
+    display: flex;
+    width: 1250px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.content {
+    flex-direction: column;
+    display: flex;
+    margin: 30px;
+}

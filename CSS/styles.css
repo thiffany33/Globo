@@ -14,5 +14,23 @@ body {
 .content {
     flex-direction: column;
     display: flex;
-    margin: 30px;
+    margin: auto;
+}
+
+.header {
+    flex-direction: column;
+    display: flex;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.header a {
+    border-bottom: 1px solid #f5f6f7;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+
+.logo {
+    margin: 22px;
 }

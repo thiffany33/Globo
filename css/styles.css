@@ -1,0 +1,57 @@
+.header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.g1 {
+    color: #c4170c;
+}
+
+.oglobo {
+    color: #1e4c9a;
+}
+
+.valor {
+    color: #006767;
+}
+
+.ge {
+    color: #1fb25a;
+}
+
+.cartola {
+    color: #ff7400;
+}
+
+.globoplay {
+    color: #fc355d;
+}
+
+.dropz {
+    color: #c4170c;
+}
+
+.gshow {
+    color: #ff6700;
+}
+
+.quem {
+    color: #5c5c5c;
+}
+
+.receitas {
+    color: #b74397;
+}

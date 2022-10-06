@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;600;700&display=swap');
+body {
+    font-family: Encode Sans, sans-serif;
+}
+
 .header {
-    margin-top: 20px;
+    margin-top: q 20px;
     margin-bottom: 20px;
 }
 
@@ -11,9 +16,8 @@
 
 .navbar {
     display: flex;
-    justify-content: center;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
 
 .g1 {

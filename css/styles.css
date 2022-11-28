@@ -23,20 +23,30 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 80%;
+    height: 80px;
     padding-bottom: 20px;
 }
 
-.logo {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+.header a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 20px;
 }
 
-.navbar {
+.logo {
+    margin-top: 20px;
+}
+
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    height: 90px;
+    margin-top: 5px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
 }
 
 .g1 {
@@ -77,4 +87,125 @@ body {
 
 .receitas {
     color: #b74397;
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    border-right: 1px solid #eee;
+}
+
+.principaisNoticias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.principaisNoticias h1 {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: start;
+    margin: 5px;
+}
+
+.principaisNoticias h2 {
+    font-size: 15px;
+    font-weight: normal;
+    text-align: start;
+    margin: 10px;
+}
+
+.noticiasSecundarias {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cardNoticias {
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    margin: 4px;
+}
+
+.cardNoticias img {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.cardNoticias span {
+    font-size: 12px;
+    text-align: start;
+    margin: 5px 0;
+}
+
+.cardNoticias h1 {
+    font-size: 20px;
+    letter-spacing: -4.5%;
+    font-weight: normal;
+    font-weight: bold;
+    text-align: start;
+    margin: 5px 0;
+}
+
+.cardNoticias p {
+    font-size: 12px;
+    text-align: start;
+    margin: 2px 0;
+}
+
+.direita1 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100vh;
+    border-right: 1px solid #eee;
+}
+
+.cardNoticiasSecundarias {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    margin: 0 35px 10px 35px;
+}
+
+.cardNoticiasSecundarias img {
+    width: 100%;
+    height: 128px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.cardNoticiasSecundarias span {
+    font-size: 12px;
+    text-align: start;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.cardNoticiasSecundarias h1 {
+    font-size: 15px;
+    font-weight: normal;
+    font-weight: bold;
+    text-align: start;
+    margin: 5px 0;
+}
+
+.cardNoticiasSecundarias p {
+    font-size: 14px;
+    text-align: start;
+    margin: 2px 0;
+}
+
+.direita2 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100vh;
 }
